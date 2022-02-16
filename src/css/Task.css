@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.LeftSideBar-Box {
+    background-color: #191cca;
+    position: fixed;
+    width: 250px;
+    height: 100%;
+}
+
+.LeftSideBar-Box header {
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    line-height: 70px;
+    background: #101ba8;
+    user-select: none;
+}
+
+.LeftSideBar-Box ul {
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 65px;
+    font-size: 16px;
+    color: #fff;
+    padding-left: 40px;
+    box-sizing: border-box;
+}
+
+.LeftSideBar-Box ul a{
+    font-size: 16px;
+    color: #fff;
+}
+
+button {
+    
+}
+
+.change-color:hover {
+    background-color: skyblue;
+}
