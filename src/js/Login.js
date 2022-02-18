@@ -24,7 +24,7 @@ export default function Login() {
                         <div className="Inputs-container">
                             <input type="text" placeholder="usuario"/>
                             <input type="password" placeholder="contraseña"/>
-                            <button class="Btn" onClick={() => IniciarSesion()}>
+                            <button className="Btn" id='bt_pulsar' onClick={() => IniciarSesion()}>
                                 Iniciar Sesión
                             </button>
                         </div>
