@@ -6,7 +6,7 @@ export default function Login() {
     const navigate = useNavigate();
 
     function IniciarSesion() {
-        navigate('/task', { replace: true })
+        navigate('/task', { replace: false })
     }
 
     return (
