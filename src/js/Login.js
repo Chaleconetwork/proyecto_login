@@ -31,7 +31,7 @@ export default function Login() {
                     </form>
                 </div>
                 <div className='footer'>
-                    footer
+                    Hecho por: Chaleco
                 </div>
             </main>
         </div>
