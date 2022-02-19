@@ -28,8 +28,10 @@ export default function Login() {
                                 Iniciar Sesión
                             </button>
                         </div>
-
                     </form>
+                </div>
+                <div className='footer'>
+                    footer
                 </div>
             </main>
         </div>
