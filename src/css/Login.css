@@ -58,6 +58,37 @@ h1 {
 	height: 45%;
 }
 
+.Btn {
+	width: 85% !important;
+}
+
+}
+
+@media only screen and (max-width :700px){
+	input {
+		width: 80% !important;
+		font-size: 10px !important;
+		}
+	
+	h1 {
+		font-size: 18px;
+	}
+	
+	.Form-login {
+		position: relative;
+		width: 110%;
+		left: 50%;
+	}
+
+	.Btn {
+		width: 85% !important;
+		font-size: 10px !important;
+	}
+	
+	.Imagen-container {
+		padding-top: 40px;
+	}
+
 }
 
 .Inputs-container {
@@ -91,7 +122,6 @@ h1 {
 	background: #87CEEB;
 	cursor: pointer;
 }
-
 
 .footer {
 	background-color: #000;
