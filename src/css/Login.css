@@ -97,11 +97,6 @@ h1 {
 	}
 }
 
-@media only screen and (max-height :400px){
-	.Form-login {	
-		height: 50%;
-	}
-}
 
 .Inputs-container {
 	display: flex;
