@@ -45,22 +45,22 @@ h1 {
 }
 
 @media only screen and (max-width :1024px){
-input {
-	width: 80% !important;
+	input {
+		width: 80% !important;
+		}
+
+	h1 {
+		font-size: 25px;
 	}
 
-h1 {
-	font-size: 25px;
-}
+	.Form-login {
+		width: 60%;
+		height: 45%;
+	}
 
-.Form-login {
-	width: 60%;
-	height: 45%;
-}
-
-.Btn {
-	width: 85% !important;
-}
+	.Btn {
+		width: 85% !important;
+	}
 
 }
 
@@ -76,6 +76,7 @@ h1 {
 	
 	.Form-login {
 		position: relative;
+		height: 65%;
 		width: 110%;
 		left: 50%;
 	}
@@ -92,7 +93,16 @@ h1 {
 	.footer {
 		position: absolute;
 		bottom: 0;
-		height: 10%;
+		height: 100%;
+	}
+}
+
+@media only screen and (max-width :400px){
+	.Form-login {
+		position: relative;
+		height: 50%;
+		width: 110%;
+		left: 50%;
 	}
 }
 
