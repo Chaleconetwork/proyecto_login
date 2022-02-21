@@ -97,8 +97,8 @@ h1 {
 	}
 }
 
-@media only screen and (max-width :400px){
-	.Form-login {
+@media only screen and (max-height :400px){
+	.Form-login {	
 		height: 50%;
 	}
 }
