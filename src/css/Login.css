@@ -99,10 +99,7 @@ h1 {
 
 @media only screen and (max-width :400px){
 	.Form-login {
-		position: relative;
-		height: 70%;
-		width: 110%;
-		left: 50%;
+		height: 50%;
 	}
 }
 
@@ -142,7 +139,7 @@ h1 {
 	background-color: #000;
 	color: #fff;
 	position: absolute;
-	bottom: 0;
+	bottom: 0%;
 	height: 15%;
 	width: 100%;
 }
