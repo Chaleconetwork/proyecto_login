@@ -100,7 +100,7 @@ h1 {
 @media only screen and (max-width :400px){
 	.Form-login {
 		position: relative;
-		height: 50%;
+		height: 70%;
 		width: 110%;
 		left: 50%;
 	}
