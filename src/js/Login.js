@@ -13,7 +13,6 @@ export default function Login() {
 
         <div>
             <main className="Main-container">
-                <div className="Div-login">
                     <form className="Form-login">
                         <div className="Imagen-container">
                             <img className="Imagen" src={Perfil}/>	
@@ -29,7 +28,6 @@ export default function Login() {
                             </button>
                         </div>
                     </form>
-                </div>
             </main>
         </div>
 

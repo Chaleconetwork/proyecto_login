@@ -2,15 +2,24 @@ body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Dosis', sans-serif;
-	background: url('../img/mia.jpg');
-	/* background-color: #D3D3D3; */
-	
+	/* background: url('../img/mia.jpg'); /
+    / background-color: #D3D3D3; */
+
+	background: url('../img/mia.jpg') no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 .Main-container {
 	display: grid;
 	grid-template-columns: repeat(1, 50%);
 	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 }
 
 .Imagen-container {
@@ -21,7 +30,7 @@ body {
 	width: 40%;
 	height: 30%;
 	border-radius: 50%;
-	display:block;
+	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -29,10 +38,9 @@ body {
 .Form-login {
 	background-color: rgba(255, 255, 255, 0.5);
 	height: 50%;
-	width: 40%;
+	width: 20%;
 	position: relative;
-	top: 15%;
-	left: 80%;
+	top: -8%;
 	border-radius: 20px;
 }
 
@@ -42,59 +50,6 @@ h1 {
 	align-items: center;
 	margin-top: 30px;
 	margin-bottom: 30px;
-}
-
-@media only screen and (max-width :1024px){
-	input {
-		width: 80% !important;
-		}
-
-	h1 {
-		font-size: 25px;
-	}
-
-	.Form-login {
-		width: 60%;
-		height: 45%;
-	}
-
-	.Btn {
-		width: 85% !important;
-	}
-
-}
-
-@media only screen and (max-width :700px){
-	input {
-		width: 80% !important;
-		font-size: 10px !important;
-		}
-	
-	h1 {
-		font-size: 18px;
-	}
-	
-	.Form-login {
-		position: relative;
-		height: 65%;
-		width: 110%;
-		left: 50%;
-	}
-
-	.Btn {
-		width: 85% !important;
-		font-size: 10px !important;
-	}
-	
-	.Imagen-container {
-		padding-top: 40px;
-	}
-
-	.footer {
-		position: absolute;
-		bottom: 0;
-		height: 100%;
-	}
 }
 
 .Inputs-container {
@@ -136,4 +91,23 @@ h1 {
 	bottom: 0%;
 	height: 15%;
 	width: 100%;
+}
+
+@media only screen and (max-width :1024px) {
+	.Form-login {
+		width: 50%;
+	}
+}
+
+@media only screen and (max-width :768px) {
+	.Form-login {
+		width: 100vw;
+		height: 90vw;
+	}
+}
+
+@media only screen and (max-width :500px) {
+	.Form-login {
+		height: 110vw;
+	}
 }
