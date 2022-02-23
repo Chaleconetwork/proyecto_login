@@ -12,7 +12,7 @@
 
 }
 
-@media only screen and (max-height :350px) {
+@media only screen and (max-height :400px) {
 
     form {
         width: 80% !important;
