@@ -1,0 +1,11 @@
+@media only screen and (max-width :300px) {
+    form {
+        width: 80% !important;
+        height: 60% !important;
+    }
+
+    input {
+        position: relative;
+        width: 100%;
+    }
+}
