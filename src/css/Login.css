@@ -16,31 +16,27 @@
 
     form {
         width: 80% !important;
-        height: 90% !important;
+        height: 80% !important;
     }
 
     input {
-        position: relative;
         width: 100%;
     }
 
     h1{
-        visibility: hidden;
+        content: "Oi né" !important;
     }
 
     section {
-        visibility: hidden;
+       display: none;
     }
 
     .navbar-last {
-        visibility: hidden;
+        display: none;
     }
 
     a {
-        visibility: hidden;
+        display: none;
     }
     
-    button {
-        margin-bottom: 20%;
-    }
 }
