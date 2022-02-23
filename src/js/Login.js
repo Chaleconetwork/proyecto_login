@@ -14,7 +14,7 @@ export default function Login() {
             <div className='container'>
                 <form className='rounded-3 border bg-light position-absolute top-50 start-50 translate-middle' style={{ 'width': '30%', 'height': '50%' }}>
 
-                    <h1 className='text-center mt-5 mb-4'>Inicia Sesión Ya!</h1>
+                    <h1 className='text-center mt-5 mb-4'>Inicio de Sesión!</h1>
                     <section className='text-center fs-5 mb-5'>Ingrese su cuenta</section>
 
                     <div className='form-group position-absolute top-50 start-50 translate-middle' style={{ 'width': '70%' }}>
