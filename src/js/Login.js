@@ -5,7 +5,8 @@ export default function Login() {
     const navigate = useNavigate();
 
     function IniciarSesion() {
-        navigate('/MenuPrincipal', { replace: false })
+        navigate('/', { replace: false })
+        alert("Has iniciado sesión")
     }
 
     return (
