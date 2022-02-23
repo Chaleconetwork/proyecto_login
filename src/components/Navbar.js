@@ -12,7 +12,7 @@ export default function Navbar() {
     }
 
     return (
-        <div>
+        <div className='navbar-last'>
             <div className='navbar-brand bg-danger mb-5' style={{ 'width': '100%' }}>
  
                 <div className='d-block text-end'>
