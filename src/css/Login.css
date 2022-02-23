@@ -1,6 +1,6 @@
 @media only screen and (max-width :400px) {
     form {
-        position: fixed;
+        position: static;
         width: 80% !important;
         height: 70% !important;
     }
@@ -9,9 +9,10 @@
         position: relative;
         width: 100%;
     }
+
 }
 
-/* @media only screen and (max-width :383px) {
+@media only screen and (max-width :383px) {
 
     form {
         width: 80% !important;
@@ -23,7 +24,23 @@
         width: 100%;
     }
 
+    h1{
+        visibility: hidden;
+    }
+
+    section {
+        visibility: hidden;
+    }
+
     .navbar-last {
         visibility: hidden;
     }
-} */
+
+    a {
+        visibility: hidden;
+    }
+    
+    button {
+        margin-bottom: 20%;
+    }
+}
