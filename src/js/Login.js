@@ -1,35 +1,32 @@
 import { useNavigate } from 'react-router-dom';
-import '../css/Login.css';
-import Perfil from '../img/cachorro.jpg';
 
 export default function Login() {
     const navigate = useNavigate();
 
     function IniciarSesion() {
-        navigate('/task', { replace: false })
+        navigate('/MenuPrincipal', { replace: false })
     }
 
     return (
-
         <div>
-            <main className="Main-container">
-                    <form className="Form-login">
-                        <div className="Imagen-container">
-                            <img className="Imagen" src={Perfil}/>	
-                        </div>
+            <div className='container'>
+                <form className='rounded-3 border bg-light position-absolute top-50 start-50 translate-middle' style={{ 'width': '30%', 'height': '50%' }}>
 
-                        <h1>Inicio de sesión</h1>
+                    <h1 className='text-center mt-5 mb-4'>Inicia Sesión Ya!</h1>
+                    <section className='text-center fs-5 mb-5'>Ingrese su cuenta</section>
 
-                        <div className="Inputs-container">
-                            <input type="text" placeholder="usuario"/>
-                            <input type="password" placeholder="contraseña"/>
-                            <button className="Btn" id='bt_pulsar' onClick={() => IniciarSesion()}>
-                                Iniciar Sesión
-                            </button>
-                        </div>
-                    </form>
-            </main>
+                    <div className='form-group position-absolute top-50 start-50 translate-middle' style={{ 'width': '70%' }}>
+                        <input className='form-control mt-5 mb-2' type='text' placeholder='Usuario' />
+                        <input className='form-control mb-2' type='password' placeholder='Contraseña' />
+
+                        <a className='alert-link text-decoration-none' href='#'>No tienes una cuenta?, Crea una ya!</a>
+
+                        <button className='btn-primary form-control mt-4 bg-danger' onClick={() => IniciarSesion()}>
+                            Iniciar Sesión
+                        </button>
+                    </div>
+                </form>
+            </div>
         </div>
-
     );
 }
