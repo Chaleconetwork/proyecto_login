@@ -1,5 +1,5 @@
 
-@media only screen and (max-width :400px) {
+@media only screen and (max-width :800px) and (min-width:300px) {
     form {
         position: static;
         width: 80% !important;
@@ -13,7 +13,7 @@
 
 }
 
-@media only screen and (max-height :400px) {
+@media only screen and (max-height :500px) and (min-height: 300px) {
 
     form {
         width: 80% !important;
