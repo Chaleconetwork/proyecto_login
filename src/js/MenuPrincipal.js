@@ -1,4 +1,14 @@
+import * as Datos from './Datos.json';
+
+console.log(Datos);
+
 export default function MenuPrincipal() {
+
+    function CrearTareas() {
+        
+        const saludo = 'Oi né' 
+
+    }
 
     return (
         <div>
@@ -6,24 +16,34 @@ export default function MenuPrincipal() {
 
                 <h1 className='text-center'>Título</h1>
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div className='text-center mt-4'>
+                    <form className='form-control position-absolute' style={{ 'width': '10%', 'height': '30%', 'left': '0' }}>
+                        <div>
+                            <label className='input-group'>
+                                Nombre de la tarea
+                                <input className='form-control' style={{ 'width': '100%' }} />
+                            </label>
+                            <label className='input-group'>
+                                Persona asignada
+                                <input className='form-control' style={{ 'width': '100%' }} />
+                            </label>
+                            <label className='input-group'>
+                                Descripción
+                                <input className='form-control' style={{ 'width': '100%' }} />
+                            </label>
+                        </div>
+                        <div>
+                            <button className='btn-primary form-control mt-4 bg-danger'>
+                                Crear tarea
+                            </button>
+                        </div>
+                    </form>
+                    <div className='container'>
+                        <form className='rounded-3 border bg-light position-absolute top-50 start-50 translate-middle' style={{ 'width': '30%', 'height': '50%' }}>
+                            <h1>{CrearTareas}</h1>
+                        </form>
+                    </div>
+                </div>
             </div>
         </div>
     );
