@@ -5,8 +5,8 @@ export default function Login() {
     const navigate = useNavigate();
 
     function IniciarSesion() {
-        navigate('/', { replace: false })
-        alert("Has iniciado sesión")
+        navigate('/', { replace: false });
+        alert("Has iniciado sesión");
     }
 
     return (

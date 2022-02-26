@@ -4,11 +4,11 @@ export default function Navbar() {
     const navigate = useNavigate();
 
     function IniciarSesion() {
-        navigate('/Login', { replace: false })
+        navigate('/Login', { replace: false });
     }
 
     function HomeX() {
-        navigate('/', { replace: false })
+        navigate('/', { replace: false });
     }
 
     return (
@@ -17,7 +17,7 @@ export default function Navbar() {
  
                 <div className='d-block text-end'>
                     <button onClick={() => HomeX()} class='btn btn-danger'>Home</button>
-                    <button class='btn btn-danger me-2'>Crear cuenta</button>
+                    <button class='btn btn-danger me-2'>Crear tarea</button>
                     <button onClick={() => IniciarSesion()} class='btn btn-danger me-3'>Iniciar Sesión</button>
                 </div>
             </div>
