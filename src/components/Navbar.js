@@ -1,4 +1,8 @@
+import { AiOutlineLogin } from 'react-icons/ai';
+import { BiHomeAlt } from 'react-icons/bi';
+import { IoMdAdd } from 'react-icons/io';
 import { useNavigate } from 'react-router-dom';
+
 
 export default function Navbar() {
     const navigate = useNavigate();
@@ -13,12 +17,12 @@ export default function Navbar() {
 
     return (
         <div className='navbar-last'>
-            <div className='navbar-brand bg-danger mb-5' style={{ 'width': '100%' }}>
+            <div className='navbar-brand bg-danger' style={{ 'width': '100%' }}>
  
                 <div className='d-block text-end'>
-                    <button onClick={() => HomeX()} class='btn btn-danger'>Home</button>
-                    <button class='btn btn-danger me-2'>Crear tarea</button>
-                    <button onClick={() => IniciarSesion()} class='btn btn-danger me-3'>Iniciar Sesión</button>
+                    <button onClick={() => HomeX()} class='btn btn-danger'><BiHomeAlt/> Home</button>
+                    <button class='btn btn-danger me-2'><IoMdAdd/> Crear tarea</button>
+                    <button onClick={() => IniciarSesion()} class='btn btn-danger me-3'> <AiOutlineLogin/> Iniciar Sesión</button>
                 </div>
             </div>
         </div>

@@ -1,5 +1,8 @@
+body {
+    background: #F0F8FF;
+}
 
-@media only screen and (max-width :800px) and (min-width:300px) {
+@media only screen and (max-width :950px) and (min-width:300px) {
     form {
         position: static;
         width: 80% !important;
@@ -24,15 +27,7 @@
         width: 100%;
     }
 
-    section {
-       display: none;
-    }
-
     .navbar-last {
-        display: none;
-    }
-
-    a {
         display: none;
     }
     
